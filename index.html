@@ -2,265 +2,72 @@
 <html>
 
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <link rel="icon" href="data:,">
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+    <title>Digital portfolio Bjarne Smink</title>
+    <style>
+        body {
+            font-family: verdana;
+            background-image: url(img/ZON.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
 
-  <title>Voort Varend</title>
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
 
+        }
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        .flex-container .box {
+            background-color: #f1f1f1;
+            border: 2px solid green;
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            line-height: 75px;
+            font-size: 15px;
 
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+        }
 
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+        a.one:link,
+        a.one:visited {
+            background: rgba(76, 175, 80, 0.1);
+            color: black;
+            border: 2px solid green;
+            width: 50%;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            line-height: 75px;
+        }
 
+        a.one:hover,
+        a.one:active {
+            background-color: green;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
-
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section long_section px-0">
-      <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="index.html">
-          <span>
-            Voort Varend
-          </span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class=""> </span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
-            <ul class="navbar-nav  ">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"> Profiel</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="furniture.html">Opdrachtgevers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Projecten</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>         
+    <div class="flex-container">
+        <div class="box" style="line-height:25px">
+            <img src="img/ME.jpg" alt="An image of me" style="float:right;width:50%;height:50;">
+            <h1>Get to know me!</h1>
+            <p>My name is Bjarne Smink, I was born on the 14th of january 
+                2005 in a small city called Nijkerk in the Netherlands. I’m a first 
+                year <a href="https://www.utwente.nl/en/create/" target="_blank" title="Website of CreaTe">CreaTe</a> student at the University of Twente.</p>
         </div>
-      </nav>
-    </header>
-    <!-- end header section -->
-    <!-- slider section -->
-    <section class="slider_section long_section">
-      <div id="customCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-5">
-                  <div class="detail-box">
-                    <h1>
-                      Voort <br>
-                      Varend
-                    </h1>
-                    <p>
-                      Voort Varend is een eenmansbureau opgericht door Anne-Ruth Scheijgrond, dat actief is op het gebied van multimodaal transport, en het samenbrengen van overheden, ondernemers, en onderzoeks- en onderwijsinstellingen. Hierbij staan het begeleiden en uitvoeren van onderzoek- en adviesprojecten centraal.
-                    </p>
-                    <div class="btn-box">
-                      <a href="contact.html" class="btn2">
-                        Contact
-                      </a>
-                      <a href="about.html" class="btn2">
-                        Profiel
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-7">
-                  <div class="img-box">
-                    <img src="images/AR.JPG" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>          
-        </div>       
-      </div>
-    </section>
-    <!-- end slider section -->
-  </div>
-
-  <!-- furniture section -->
-
-  <section class="furniture_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Onderscheidende kenmerken
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/brug.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Verstand van zowel de ondernemers- als de overheidswereld.
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/Analyse.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Sterk analytisch vermogen.
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/Netwerk.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Groot netwerk.
-              </h5>
-            </div>
-          </div>
-        </div>
-        
-      </div>
     </div>
-  </section>
-
-  <!-- end furniture section -->
-
-
-
-  <!-- blog section -->
-
-  <section class="blog_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Voorbeeld van een project
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mx-auto">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/unnamed.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Kwartiermaker Havengebied
-              </h5>
-              <p>
-                Kwartiermaker: Het doel is om de ondernemers gevestigd in het Industriegebied De Haven te Drachten te verenigen.
-              </p>
-              <a href="blog.html">
-                Meer projecten
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="flex-container">
+        <a class="one" href="aboutme.html" target="_self" title="This link takes you to the place where you learn more about me"><b>About me</b></a>
+        <a class="one" href="project.html" target="_self" title="This link takes you to the projects"><b>Projects</b></a>
     </div>
-  </section>
-
-  <!-- end blog section -->
-
-
-  <!-- info section -->
-  <section class="info_section long_section">
-
-    <div class="container">
-
-
-      <div class="info_top ">
-        <div class="row ">
-          <div class="col-sm-6 col-md-4 col-lg-4">
-            <div class="info_links">
-              <h4>
-                QUICK LINKS
-              </h4>
-              <div class="info_links_menu">
-                <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="" href="about.html"> Profiel</a>
-                <a class="" href="furniture.html">Opdrachtgevers</a>
-                <a class="" href="blog.html">Projecten</a>
-                <a class="" href="contact.html">Contact</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 mx-auto">
-            <div class="info_post">
-              
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="info_form">
-
-              <div class="social_box">
-
-                <a href="https://nl.linkedin.com/in/anne-ruth-scheijgrond-4997ab75">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.instagram.com/anneruthscheijgrond?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="flex-container">
+        <a class="one" href="hobbies.html" target="_self" title="This link takes you to my hobbies"><b>Hobbies</b></a>
+        <a class="one" href="doc/CV.pdf" download="CV_BjarneSmink"><b>CV</b></a>
     </div>
-  </section>
-  <!-- end info_section -->
-
-
-  <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-        Distribution <a href="https://themewagon.com">ThemeWagon</a>
-         - Afbeeldingen verkregen op <a href="https://nl.freepik.com/">freepik </a>
-      </p>
-    </div>
-  </footer>
-  <!-- footer section -->
-
 </body>
 
 </html>
